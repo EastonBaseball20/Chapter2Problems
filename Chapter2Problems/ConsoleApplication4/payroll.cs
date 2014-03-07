@@ -9,28 +9,30 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            string name, socialnumber;
-            double hourspay, hourswork, totalpay;
-            
-            Console.Write("Enter your name: ");
+            String name, ssn, hpr, hw;
+            double hourspay, hoursworked;
+            double gross, fed, state, moneyperh;
+            Console.Write("Enter your name:");
             name = Console.ReadLine();
-            Console.Write("Social Security Number: ", name);
-            socialnumber = Console.ReadLine();
-            Console.Write("Hourly Pay Rate: ");
-            hourspay = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Hours Worked: ");
-            hourswork = Convert.ToDouble(Console.ReadLine());
-            totalpay = hourspay * hourswork;
-            Console.WriteLine(" ");
-            Console.WriteLine("Payroll summary for {0}: ", name);
-            Console.WriteLine("SSN: {0}", socialnumber);
-            Console.WriteLine("You earned ${0} at ${1} per hour.", totalpay, hourspay);
-            Console.WriteLine(" ");
-            Console.WriteLine("Gross pay: {0, 18}.", totalpay);
-            Console.WriteLine("Feederal withholding: {0, 20}.", totalpay % 1.5f);
-            Console.WriteLine("State withholding: {0, 10}.", totalpay % 0.5f);
-            Console.WriteLine("Net pay: {0, 20}.", totalpay);
-
+            Console.Write("Social Security number:");
+            ssn = Console.ReadLine();
+            Console.Write("Hourly pay rate:");
+            hpr = Console.ReadLine();
+            hourspay = Convert.ToDouble(hpr);
+            Console.Write("Hours worked:");
+            hw = Console.ReadLine();
+            hoursworked = Convert.ToDouble(hw);
+            gross = hourspay * hoursworked;
+            moneyperh = gross / hoursworked;
+            fed = gross * 0.15;
+            state = gross * 0.05;
+            Console.WriteLine("Payroll Summary for {0}:", name);
+            Console.WriteLine("SSN {0}:", ssn);
+            Console.WriteLine("You earned {0} at {1} per hour", gross, moneyperh);
+            Console.WriteLine("Gross pay is:           {0,10}", gross.ToString("C"));
+            Console.WriteLine("Federal withholding is: {0,10}", fed.ToString("C"));
+            Console.WriteLine("State withholding is    {0,10}", state.ToString("C"));
+            
         }
     }
 }

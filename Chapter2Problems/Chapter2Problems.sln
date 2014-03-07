@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2Problems", "Chapter2Problems\Chapter2Problems.csproj", "{462DE819-F0CB-4BC6-AA86-E8CF2AA92F3D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "room.cs", "Chapter2Problems\room.cs.csproj", "{462DE819-F0CB-4BC6-AA86-E8CF2AA92F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{8DD70F3A-CC46-4B96-B76B-79C97EE27B4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "carpet.cs", "ConsoleApplication1\carpet.cs.csproj", "{8DD70F3A-CC46-4B96-B76B-79C97EE27B4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{58ED3DE3-140F-42FF-86C8-BFF3E5D4DDEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hoursandmintues.cs", "ConsoleApplication2\hoursandmintues.cs.csproj", "{58ED3DE3-140F-42FF-86C8-BFF3E5D4DDEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.csproj", "{4B4DD808-F5E2-4ADA-ACDB-49E74051FF55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eggs.cs", "ConsoleApplication3\eggs.cs.csproj", "{4B4DD808-F5E2-4ADA-ACDB-49E74051FF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication4", "ConsoleApplication4\ConsoleApplication4.csproj", "{8D18245B-5BF1-4AC0-BAAB-56E245022282}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "payroll.cs", "ConsoleApplication4\payroll.cs.csproj", "{8D18245B-5BF1-4AC0-BAAB-56E245022282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
